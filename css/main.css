@@ -108,11 +108,19 @@ h6 {
 }
 
 p {
+     font-family: 'TT Commons';
   font-size: 16px;
   color: #000;
   font-weight: 400;
 }
 
+pItalic {
+  font-family: 'TT Commons';
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  font-style: italic;
+}
 /* ==========================================================================
 Buttons Styles
 ========================================================================== */
@@ -135,7 +143,7 @@ Buttons Styles
 }
 
 li>a{
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'TT Commons', serif;
 }
 
 .btn-transparent:hover,
@@ -288,8 +296,10 @@ Navigation Style
   height: auto;
 }
 .top-nav-collapse .navbar-brand img {
- /* width: 52px;
-  height: 52px;*/
+/*
+  width: 52px;
+  height: 52px;
+*/
 }
 .top-nav-collapse .nav > li > a {
   padding: 30px 15px;
@@ -302,6 +312,11 @@ Sliders Style
   overflow: hidden;
 }
 #owl-hero .item {
+/*
+     max-width: 100%;
+    min-width: 300px;
+    height: auto;
+*/
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -774,18 +789,19 @@ Media Queries Style
 @media (max-width: 992px) {
   /*-- Navigation --*/
   .navbar-default {
-    background: #f6ecbb;
+    background: #ffffff;
   }
   .navbar-default .navbar-header {
     width: 100%;
     padding-right: 0;
   }
+    
   .navbar-default .navbar-header .navbar-brand {
     height: auto;
   }
   .navbar-default .navbar-header .navbar-brand img {
-    width: 52px;
-    height: 52px;
+/*    width: 52px;*/
+    height: auto;
   }
   .navbar-default .nav-wrap {
     width: 100%;
@@ -821,7 +837,7 @@ Media Queries Style
     margin-top: 7.5px;
   }
   .navbar-default .navbar-nav > li {
-    float: none;
+/*    float: none;*/
   }
   .navbar-default .collapse.in {
     display: block !important;
@@ -4573,10 +4589,11 @@ body.wrap-width {
 }
 
 .titre_laurine{
-	font-size: 5vmin;
+	font-size: 10vmin;
+/*    font-size: 65px;*/
 	color: #1cacb7;
 	font-weight: bold;
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'TT Commons', serif;
 }
 
 .couleur_texte{
