@@ -1,0 +1,6 @@
+Avant chaque modification du code
+
+faire dans le terminal:
+	cd /Users/elodiebourgeois/Desktop/SiteElodie
+	git pull
+	git status
