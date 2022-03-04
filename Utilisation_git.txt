@@ -3,4 +3,21 @@ Avant chaque modification du code
 faire dans le terminal:
 	cd /Users/elodiebourgeois/Desktop/SiteElodie
 	git pull
+
+Ensuite tu fais tes modifs sur brackets
+Tu enregistre avec command S
+
+Ensuite rdv terminal
+
 	git status
+	git add nom_du_fichier
+ou
+	git add . (Si tu veux tout ajouter)
+	git commit -m "Titre"
+	git push
+
+
+Ensuite MAJ SERVEUR SITE
+dashboard.render.com 
+
+
